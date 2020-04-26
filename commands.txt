@@ -1,0 +1,13 @@
+git init - to initiate git repo
+git add . - to stage all files present in current directory
+git add <name of Files seperated with space> - to add/stage files
+git commit -m "MSG" - to commit files to repository (-m) is used add message to commit
+git push origin <name of branch> - to push changes/branch to remote/git repo
+git clone <URL> - to clone branch
+git pull origin <name of branch> - to update local repo
+git status - to check sstatus of files created whether they are commited or not or in simple words to check if they are being tracked by git or not 
+git branch - to display branches
+git branch <name of branch> - to create branch
+git branch -D/d <name of branch> - to delete branch
+git push origin <name of branch> - to push branch to githum repo
+git checkout <name of branch> - to switch branch
