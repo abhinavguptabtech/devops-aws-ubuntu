@@ -5,7 +5,7 @@ git commit -m "MSG" - to commit files to repository (-m) is used add message to 
 git push origin <name of branch> - to push changes/branch to remote/git repo
 git clone <URL> - to clone branch
 git pull origin <name of branch> - to update local repo
-git status - to check sstatus of files created whether they are commited or not or in simple words to check if they are being tracked by git or not 
+git status - to check status of files created whether they are commited or not or in simple words to check if they are being tracked by git or not 
 git branch - to display branches
 git branch <name of branch> - to create branch
 git branch -D/d <name of branch> - to delete branch
