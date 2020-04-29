@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get install docker.io
+docker --version
+docker pull <image-name> - docker pull ubuntu - prefix sudo if you get permission issue i.e sudo docker pull <image-name>
+docker images - to check the images available
+docker run [-it] [-d] <image-name> - To run the downloaded image. -it means make the terminal interactive and -d means make the container deamon and run it in background till i stop the container.
+docker ps - to check the running containers
+docker exec <container id> - sudo docker exec -it 6c785471abf0 bash - To login or access the container. bash is to tell that i want to work in current terminal space
+docker stop <container id> - to stop container
+docker kill <container id> - to kill container. if container doesn't stops by above ccmd or takes too one can opt to kill running container
+docker rm <container id> - to remove a stopped container from the system
+docker rmi <image id> - to remove an image from the system
+

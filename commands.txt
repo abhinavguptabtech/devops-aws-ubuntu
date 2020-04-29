@@ -2,6 +2,7 @@ git init - to initiate git repo
 git add . - to stage all files present in current directory
 git add <name of Files seperated with space> - to add/stage files
 git commit -m "MSG" - to commit files to repository (-m) is used add message to commit
+git remote add origin <URL> - to add remote repo to which code will be pushed.
 git push origin <name of branch> - to push changes/branch to remote/git repo
 git clone <URL> - to clone branch
 git pull origin <name of branch> - to update local repo
@@ -11,3 +12,10 @@ git branch <name of branch> - to create branch
 git branch -D/d <name of branch> - to delete branch
 git push origin <name of branch> - to push branch to githum repo
 git checkout <name of branch> - to switch branch
+git log - to check history of commits on current branch
+git stash - to stash staged files when working on multiple branches simultaneouly
+git stash -u - to stash untracked files
+git stash pop - to bring back stashed changes
+git revert <commit id> - This will revert the changes done in this commit id
+git diff <commit id1> <commit id2>  - This will tell the differences commited in these two commit ids
+git diff HEAD . - Head points to the commited code in branch i.e latest code and . points to changes present in local copy of code. This command can be used if we want to check differences between Head and local copy of code that is not yet comitted and pushed. 
